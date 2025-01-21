@@ -3,15 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="/login_system/src/main/resources/css/styles.css"
-    />
+
     <title>Document</title>
   </head>
+  <style>
+    label {
+      display: inline-block;
+      width: 6rem;
+      text-align: center;
+      margin-left: 0.5rem;
+    }
+    fieldset {
+      width: 50rem;
+    }
+    #btn_contain {
+      width: 50rem;
+      text-align: center;
+    }
+  </style>
   <body>
     <h2>로그인 시스템 회원가입</h2>
-    <form action="/member/signup" method="post">
+    <form id="memform">
       <fieldset>
         <legend>회원정보가입</legend>
         <p>
@@ -70,4 +82,33 @@
     </form>
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $("#memform").on("submit", async (evt) => {
+      evt.preventDefault(); // 기본이벤트 제거
+      const payload = new FormData($("#memform")[0]); //ui폼데이터 수집
+      console.log(payload);
+      for (let key of payload.keys()) {
+        console.log(key, ":", payload.get(key));
+      }
+      if (payload.get("age")) {
+        payload.set("age", "100");
+      }
+
+      //서버로의 데이터 전송
+      const res = await fetch("/member/signup", {
+        method: "post",
+        body: payload,
+      });
+      //promise 대기-서버응답시까지
+      const data = await res.json(); //서버응답시 json 데이터로 수신
+      console.log(data);
+      if ((data.message = "회원가입성공")) {
+        alert("회원가입이 성공하였습니다. 다시 로그인 해주세요");
+        location.href = "/";
+      } else {
+        alert("회원가입실패 가입정보를 다시 확인해주세요");
+      }
+      return false;
+    });
+  </script>
 </html>
