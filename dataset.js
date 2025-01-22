@@ -41,7 +41,7 @@ d1.set_img(0, {
     "https://drive.google.com/file/d/14tP9OZVdtt7V-78ztYOqxwIlhE7L7Gh5/view?usp=drive_link",
   imglog: "작성된 요구사항 명",
   sourceurl:
-    "https://docs.google.com/document/d/1qQB-a8vxE0IEFTQuqECyQfRu86l1odpVYwtVK2SbqHk/edit?usp=drive_link",
+    "https://drive.google.com/drive/folders/1Sc2hvpJedi3QsoCSHroRZeGGRLo4SZr8?usp=drive_link",
 }); //이미지타이틀
 
 d1.set_content(
@@ -50,16 +50,17 @@ d1.set_content(
 d1.set_img(1, {
   imgtitle: "개발언어선정",
   imgurl:
-    "https://drive.google.com/file/d/15GgAeFgW1Cxctk9PbJagUNfG2UkEU4WS/view?usp=drive_link",
-  imglog: "자바언어기반 스프링프레임워크, html5, memberData file",
+    "https://drive.google.com/file/d/14KBnnIXV05zlsSph3-XuC0jywezuGVfN/view?usp=drive_link",
+  imglog:
+    "자바언어기반 스프링프레임워크, html5,css3.javascript,jquery, memberData file",
   sourceurl:
-    "https://docs.google.com/document/d/1UvD1fZNL9yjLORwxgAW5vD6C-A_RwL1zcNan9RZqmys/edit?usp=drive_link",
+    "https://docs.google.com/document/d/1KDdTqMNlEEeuWGtog3AsUIQo_KFAznTm8MEg8h-0T3s/edit?usp=drive_link",
 }); //이미지타이틀
 d1.set_img(1, {
   imgtitle: "스프링프레임워크",
   imgurl:
-    "https://drive.google.com/file/d/1HRUQhj2Tk6AzIW_NSRD59wGUAduJYTmW/view?usp=drive_link",
-  imglog: "오픈소스 스프링프레임워크 v4.221",
+    "https://drive.google.com/file/d/1847tANq4D2pjhsC7cao-sQ_5LDcj85KI/view?usp=drive_link",
+  imglog: "오픈소스 스프링프레임워크 v4.27.0",
   sourceurl: "",
 }); //이미지타이틀
 
