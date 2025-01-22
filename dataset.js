@@ -63,6 +63,20 @@ d1.set_img(1, {
   imglog: "오픈소스 스프링프레임워크 v4.27.0",
   sourceurl: "",
 }); //이미지타이틀
+set_img(1, {
+  imgtitle: "마리아DB",
+  imgurld1:
+    "https://drive.google.com/file/d/1TuqlPd2n57yRQ47gKpxwUQVT-d1wgO8l/view?usp=drive_link",
+  imglog: "오픈소스 마리아DB v11.62",
+  sourceurl: "",
+}); //이미지타이틀
+set_img(1, {
+  imgtitle: "member 테이블",
+  imgurld1:
+    "https://drive.google.com/file/d/1O9jzgXWjhsvo9X7mHbLR442nf06RDeQB/view?usp=drive_link",
+  imglog: "member 테이블 파일",
+  sourceurl: "",
+}); //이미지타이틀
 
 d1.set_content(
   "코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다."
