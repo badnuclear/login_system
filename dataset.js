@@ -36,9 +36,12 @@ d1.set_content(
   "사용자의 로그인 기능을 구현하여 로그인 사용자와 비로그인 사용자에 제공 서비스를 구분한다."
 ); //서브 타이틀
 d1.set_img(0, {
-  imgtitle: "테스트용",
+  imgtitle: "요구사항 명세서 작성",
   imgurl:
-    "https://drive.google.com/file/d/1Yb6P6wDudzGfL2OSOICIg_mET-IY_irH/view?usp=drive_link",
+    "https://drive.google.com/file/d/14tP9OZVdtt7V-78ztYOqxwIlhE7L7Gh5/view?usp=drive_link",
+  imglog: "작성된 요구사항 명",
+  sourceurl:
+    "https://docs.google.com/document/d/1qQB-a8vxE0IEFTQuqECyQfRu86l1odpVYwtVK2SbqHk/edit?usp=drive_link",
 }); //이미지타이틀
 
 d1.set_content(
