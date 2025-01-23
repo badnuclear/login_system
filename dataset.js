@@ -119,11 +119,50 @@ d1.set_fill(
 data_sets.push(d1);
 
 // menu2 =============================================================
+//서브 타이틀
 let d2 = new DataSet("공통모듈구현"); //메인타이틀
+d2.set_content("공통모듈구현 분리 전 후");
+d2.set_img(0, {
+  imgtitle: "공통 모듈 구현 분리 전",
+  imgurl:
+    "https://drive.google.com/file/d/10_nOuyofiVcBM0RKQmXGtLGdPIstxXwz/view?usp=drive_link",
+  imglog: "공통 모듈 분리 대상과 분리 전",
+  sourceurl: "",
+}); //이미지타이틀
+d2.set_img(0, {
+  imgtitle: "공통 모듈 구현 분리 JS",
+  imgurl:
+    "https://drive.google.com/file/d/1CSZHRETaFbJ4Q_zhn1N9xos7dEVOu1sd/view?usp=drive_link",
+  imglog: "로그인과 로그아웃 모듈을 분리하여 공통 모듈을 제작 ",
+  sourceurl: "",
+}); //이미지타이틀
+d2.set_img(0, {
+  imgtitle: "공통 모듈 구현 분리 페이지",
+  imgurl:
+    "https://drive.google.com/file/d/1cZpXqSrkoA8o0KAcbxtPtn-gZaRVXldQ/view?usp=drive_link",
+  imglog: "공통 모듈 분리 및 분리 페이지 ",
+  sourceurl: "",
+}); //이미지타이틀
 
-d2.set_content("공통모듈구현을 작성합니다."); //서브 타이틀
+//테스트 케이스
 d2.set_content("테스트케이스를 작성합니다.");
+d2.set_img(1, {
+  imgtitle: "테스트케이스",
+  imgurl:
+    "https://drive.google.com/file/d/1cZpXqSrkoA8o0KAcbxtPtn-gZaRVXldQ/view?usp=drive_link",
+  imglog: "테스트 케이스 작성전",
+  sourceurl: "",
+}); //이미지타이틀
+
+//단위 테스트
 d2.set_content("단위테스트를 작성합니다.");
+d2.set_img(2, {
+  imgtitle: "단위테스트",
+  imgurl:
+    "https://drive.google.com/file/d/1cZpXqSrkoA8o0KAcbxtPtn-gZaRVXldQ/view?usp=drive_link",
+  imglog: "단위 테스트 작성전 ",
+  sourceurl: "",
+}); //이미지타이틀
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정"); //사용자 에필로그
 data_sets.push(d2);
