@@ -63,17 +63,16 @@ d1.set_img(1, {
   imglog: "오픈소스 스프링프레임워크 v4.27.0",
   sourceurl: "",
 }); //이미지타이틀
-
 d1.set_img(1, {
   imgtitle: "마리아DB",
-  imgurld1:
+  imgurl:
     "https://drive.google.com/file/d/1TuqlPd2n57yRQ47gKpxwUQVT-d1wgO8l/view?usp=drive_link",
   imglog: "오픈소스 마리아DB v11.62",
   sourceurl: "",
 }); //이미지타이틀
 d1.set_img(1, {
   imgtitle: "member 테이블",
-  imgurld1:
+  imgurl:
     "https://drive.google.com/file/d/1O9jzgXWjhsvo9X7mHbLR442nf06RDeQB/view?usp=drive_link",
   imglog: "member 테이블 파일",
   sourceurl: "",
