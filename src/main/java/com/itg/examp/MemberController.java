@@ -48,6 +48,7 @@ public class MemberController {
 		}
 		return hm;
 	}
+	//로그인
 	@PostMapping("/login")
 	public Map signin(HttpServletRequest request,  @RequestBody Map<String,String> logindata) {
 		System.out.println(logindata);
@@ -66,6 +67,7 @@ public class MemberController {
 		return hm;
 		
 	}
+	//로그아웃
 	@GetMapping("/logout")
 	public HashMap<String , Object> signout(HttpServletRequest request,HttpServletResponse response) {
 		HttpSession auth =  request.getSession();

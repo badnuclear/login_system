@@ -84,31 +84,32 @@ d1.set_content(
 d1.set_img(2, {
   imgtitle: "개발환경 구축 명세",
   imgurl:
-    "https://drive.google.com/file/d/1mw6ZBtTbbZQYlfz1YQXCuTfoi-hnvfpg/view?usp=drive_link",
+    "https://drive.google.com/file/d/1powbBJAgvE7AG3Kc0ihAN2ROizD-wZ__/view?usp=drive_link",
   imglog:
     "운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",
   sourceurl:
-    "https://docs.google.com/document/d/1rNVbHnhYGoozaqX_RsD3cErmKYzGUMvba9ihxbP2CKk/edit?usp=drive_link",
+    "https://docs.google.com/document/d/16_IOWZKq3GoWnhgjZ2bYBBvKN_WPr-lhsPxpS4Fdruw/edit?usp=drive_link",
 }); //이미지타이틀
 d1.set_img(2, {
-  imgtitle: "개발도구 Spring for Eclipse",
+  imgtitle: "개발도구 Spring Boot 4",
   imgurl:
-    "https://drive.google.com/file/d/1vl3Ridea05eDn3Hx0cfIWzgkPi-vQX31/view?usp=drive_link",
+    "https://drive.google.com/file/d/13p1tvBbCVEh8CKTzFK6fBw1S5MEns1as/view?usp=drive_link",
   imglog: "자바 스프링 서버단 개발을 위한 도구",
   sourceurl: "",
 }); //이미지타이틀
 d1.set_img(2, {
-  imgtitle: "빌드도구 gradle",
+  imgtitle: "개발 도구 Visual Studio Code",
   imgurl:
-    "https://drive.google.com/file/d/1vlxyuzBmzaBk7B9VoycUH0mRBBxe4nTr/view?usp=drive_link",
-  imglog: "프로그램 빌드 및 외부 라이브러리 디펜더시를 위한 도구",
+    "https://drive.google.com/file/d/1NRtmIEa6ubxRSL3k0sLVuyP03S_O0nqd/view?usp=drive_link",
+  imglog: "로그인 웹 페이지 디자인 및 프론트엔드 개발을 위한 도구",
   sourceurl: "",
 }); //이미지타이틀
 d1.set_img(2, {
-  imgtitle: "형상관리도구 git",
+  imgtitle: "테스트도구 Postmen",
   imgurl:
-    "https://drive.google.com/file/d/1yLXiqHWblzxAnZXGZKvRcxU8HSgf3UqS/view?usp=drive_link",
-  imglog: "프로그램의 전반적인 개발협업 및 버전관를 위한 도구",
+    "https://drive.google.com/file/d/1iZeMgcuT9qbOU-ROjvz8wmlH7Bg-k685/view?usp=drive_link",
+  imglog:
+    "웹 서버와 데이터 베이스간 데이터 연결 및 저장을 확인 하기 위한 테스트 도구",
   sourceurl: "",
 }); //이미지타이틀
 
