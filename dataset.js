@@ -145,7 +145,7 @@ d2.set_img(0, {
 }); //이미지타이틀
 
 //테스트 케이스
-d2.set_content("테스트케이스를 작성합니다.");
+d2.set_content("테스트케이스를 작성");
 d2.set_img(1, {
   imgtitle: "테스트케이스",
   imgurl:
@@ -155,7 +155,7 @@ d2.set_img(1, {
 }); //이미지타이틀
 
 //단위 테스트
-d2.set_content("단위테스트를 작성합니다.");
+d2.set_content("단위테스트를 작성");
 d2.set_img(2, {
   imgtitle: "단위테스트",
   imgurl:
@@ -170,11 +170,145 @@ data_sets.push(d2);
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현"); //메인타이틀
 d3.set_content("회원가입구현"); //서브타이틀
+d3.set_img(0, {
+  imgtitle: "로그인 인덱스 HTML 소스 코드 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1Mk3h_sA_0gMp5dmnGXc9pQIkujXhXUqs/view?usp=drive_link",
+  imglog: "로그인과 회원가입을 위한 인덱스 HTML 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/resources/static/index.html",
+}); //이미지타이틀
+d3.set_img(0, {
+  imgtitle: "멤버 XML 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1wTEwOLWLCfMg5AqQtLIzRyS9rwDCXL7S/view?usp=drive_link",
+  imglog: "회원가입을 위한 멤버 mapper XML를 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/java/com/itg/examp/config/memberMapper.xml",
+}); //이미지타이틀
+d3.set_img(0, {
+  imgtitle: "회원가입 컨트롤러 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1QV_xj5krTMvIjdOyMiFaP-Cnu2YhWWRG/view?usp=drive_link",
+  imglog:
+    "요구사항에 맞게 아이디는 4자리 비밀번호는 6자리 이상으로 하여 컨트롤러 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/java/com/itg/examp/MemberController.java",
+}); //이미지타이틀
+d3.set_img(0, {
+  imgtitle: "로그인 페이지 회원가입 페이지",
+  imgurl:
+    "https://drive.google.com/file/d/1e16LKOUkyjhuoSO9FY1fbViA2smsszB8/view?usp=drive_link",
+  imglog: "로그인페이지 에서 회원가입 페이지로 이동",
+  sourceurl: "",
+}); //이미지타이틀
+d3.set_img(0, {
+  imgtitle: "회원가입에서 임의값을 삽입 ",
+  imgurl:
+    "https://drive.google.com/file/d/1jqnsM4r85ToBvoBb47ySIr8QV7JxDL7W/view?usp=drive_link",
+  imglog: "회원가입에서 임의값을 삽입하여 회원가입을 진행",
+  sourceurl: "",
+}); //이미지타이틀
+d3.set_img(0, {
+  imgtitle: "회원가입 성공",
+  imgurl:
+    "https://drive.google.com/file/d/1Qjp04i4nWRIvwH3HBiwHlTKsK_rYO6Om/view?usp=drive_link",
+  imglog: "임의값을 삽입하여 회원가입에 성공",
+  sourceurl: "",
+}); //이미지타이틀
+d3.set_img(0, {
+  imgtitle: "회원가입에 성공하여 DB에 저장",
+  imgurl:
+    "https://drive.google.com/file/d/1NsgPVIvOz52XeEO-sxP0osR7oA7mYL1a/view?usp=drive_link",
+  imglog: "회원가입에 임의값을 입력하여 회원가입에 성공후 DB에 저장된 모습",
+  sourceurl: "",
+}); //이미지타이틀
+
 d3.set_content("회원로그인구현");
-d3.set_content("회원리스트연동");
-d3.set_content("테스트케이스 작성");
-d3.set_content("목오브젝트생성 및 테스트 구현");
-d3.set_content("결과보고서 작성");
+d3.set_img(1, {
+  imgtitle: "로그인을 위한 컨트롤러 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1QhsLtLcHG9KEyhmJUFlvCGR2rv21EXdp/view?usp=drive_link",
+  imglog: "DB접근후 로그인을 하기위해 컨트롤러 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/java/com/itg/examp/MemberController.java",
+}); //이미지타이틀
+d3.set_img(1, {
+  imgtitle: "로그인을 위한 자바스크립트 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1-44IBe8RKUgi-E797-75LUxAKDh_m-1y/view?usp=drive_link",
+  imglog: "자바스크립트를 이용해 DB와 회원가입 웹을 비동기적 통신을 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/resources/static/common.js",
+}); //이미지타이틀
+d3.set_img(1, {
+  imgtitle: "로그인을 위한 자바스크립트 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1U4lLTFY464XGlbUHHWSgxULzvALXMvXf/view?usp=drive_link",
+  imglog: "자바스크립트를 이용해 DB와 회원가입 웹을 비동기적 통신을 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/resources/static/index.html",
+}); //이미지타이틀
+d3.set_img(1, {
+  imgtitle: "로그인 테스트",
+  imgurl:
+    "https://drive.google.com/file/d/1sdAKrM12KAO7yGfguwSp8k0B9LvUN7Gi/view?usp=drive_link",
+  imglog: "임의값으로 회원가입한 정보로 로그인 진행 및 성공하는 모습  ",
+  sourceurl: "",
+}); //이미지타이틀
+d3.set_content("회원 로그아웃 구현");
+d3.set_img(2, {
+  imgtitle: "회원 로그아웃 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1dXO6xGqLGg0ZAhqPgke4r5P-ztAfCBSw/view?usp=drive_link",
+  imglog:
+    "회원 로그아웃을 할려면 세션을 끊어야 하기 때문에 세션을 끊는 컨트롤러 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/java/com/itg/examp/MemberController.java",
+}); //이미지타이틀
+d3.set_img(2, {
+  imgtitle: "회원 로그아웃 구현",
+  imgurl:
+    "https://drive.google.com/file/d/177Xh-J2APiC8MYr8FkbTrJC1qXixrUIN/view?usp=drive_link",
+  imglog: "회원 로그아웃을 위해 자비스크립트를 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/resources/static/common.js",
+}); //이미지타이틀
+d3.set_img(2, {
+  imgtitle: "회원 로그아웃 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1smi6M-tQ_K40VyusI35xB3E343pRZb1e/view?usp=drive_link",
+  imglog:
+    "임의값으로 로그인한 세션을 이용해 회원 로그아웃 진행하여 성공하는 모습",
+  sourceurl: "",
+}); //이미지타이틀
+
+d3.set_content("회원리스트 출력 구현");
+d3.set_img(3, {
+  imgtitle: "회원리스트 출력 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1FaXSV847kcrQ31dudl7NzFK8b4MY9Eus/view?usp=drive_link",
+  imglog:
+    "기존에 있던 회원DB를 이용해 리스트를 나오게 해야하기 때문에 리스트 컨트롤러 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/java/com/itg/examp/MemberController.java",
+}); //이미지타이틀
+d3.set_img(3, {
+  imgtitle: "회원리스트 출력 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1KLPIac8tt2uVoejqsH7Osl-cKaeLfTsK/view?usp=drive_link",
+  imglog: "DB와 비동기적 통신으로 자바스크립트를 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/resources/static/index.html",
+}); //이미지타이틀
+d3.set_img(3, {
+  imgtitle: "회원리스트 출력 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1viZRg3wdfCn4knwMc0O9W2ZSzURNYq_s/view?usp=drive_link",
+  imglog: "로그인하여 회원리스트를 출력하는 모습",
+  sourceurl: "",
+}); //이미지타이틀
+
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정"); //사용자 에필로그
 data_sets.push(d3);
 
@@ -182,8 +316,35 @@ data_sets.push(d3);
 let d4 = new DataSet("배치프로그램구현"); //메인타이틀
 
 d4.set_content("배치스케줄구현"); //서브타이틀
-
-d4.set_content("배치프로그램테스트 구현");
-
-d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정"); //사용자 에필로그
+d4.set_img(0, {
+  imgtitle: "배치 스케줄 구현",
+  imgurl:
+    "https://drive.google.com/file/d/12z36RKs_QOhp7LFnPSM7j1ounfwLgYH7/view?usp=drive_link",
+  imglog: "배치 프로그램을 사용하기 위한 빌드 셋팅",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/build.gradle",
+}); //이미지타이틀
+d4.set_img(0, {
+  imgtitle: "배치 스케줄 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1kUEyr7kkYWWv8V1hzrKeZxYR7fS5u5gC/view?usp=drive_link",
+  imglog: "배치 스케줄 구현을 위한 JOB 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/java/com/itg/examp/job/BatchConfiguration.java",
+}); //이미지타이틀
+d4.set_img(0, {
+  imgtitle: "배치 스케줄 구현",
+  imgurl:
+    "https://drive.google.com/file/d/1aw5j33hE3feXZlEBO8Da8eMqwLo-3MOG/view?usp=drive_link",
+  imglog: "배치 스케줄 구현",
+  sourceurl:
+    "https://github.com/badnuclear/login_system/blob/main/src/main/java/com/itg/examp/job/BatchSchedule.java",
+}); //이미지타이틀
+d4.set_img(0, {
+  imgtitle: "배치 스케줄 테스트",
+  imgurl:
+    "https://drive.google.com/file/d/1SoQO57QmdHBYFK5HKD3fpf-B508OaTSy/view?usp=drive_link",
+  imglog: "배치 스케줄 테스트 하는 모습",
+  sourceurl: "",
+}); //이미지타이틀
 data_sets.push(d4);
