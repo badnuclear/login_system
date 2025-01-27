@@ -16,8 +16,8 @@ public class MemberServiceTests {
     String[] rightPw;
     String[] wrongPw;
 
-    @Autowired
-    MemberService ms;
+    
+    MemberService ms=new MemberService();
 
     @BeforeEach
     public void setVariable() {
