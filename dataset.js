@@ -152,7 +152,7 @@ d2.set_content("단위테스트");
 d2.set_img(2, {
   imgtitle: "단위테스트",
   imgurl:
-    "https://drive.google.com/drive/folders/1P_qdjLXpBHmZRQ8DwJ6dDL5m0pF9kgb0",
+    "https://drive.google.com/file/d/1f8f78SkH1SZKQRWoeZi-eeqhIej0fMqH/view?usp=drive_link",
   imglog: "테스트 케이스 코드 작성",
   sourceurl:
     "https://github.com/badnuclear/login_system/blob/main/src/test/java/com/itg/examp/test/MemberServiceTests.java",
