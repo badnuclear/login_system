@@ -1,5 +1,8 @@
 package com.itg.examp;
+
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+
 @Service
 public class MemberService {
 	public boolean checkPassword(String password) {
@@ -11,4 +14,3 @@ public class MemberService {
 		return false;
 	}
 }
-

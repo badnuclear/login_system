@@ -141,9 +141,10 @@ d2.set_content("테스트케이스를 작성");
 d2.set_img(1, {
   imgtitle: "테스트케이스",
   imgurl:
-    "https://drive.google.com/file/d/1cZpXqSrkoA8o0KAcbxtPtn-gZaRVXldQ/view?usp=drive_link",
-  imglog: "테스트 케이스 작성전",
-  sourceurl: "",
+    "https://drive.google.com/file/d/1aF4z_K4rA2d3qr3xmP_g7IenM2Y9GOAP/view?usp=drive_link",
+  imglog: "테스트 케이스 시나리오",
+  sourceurl:
+    "https://docs.google.com/document/d/13vUMZ1SU_8LIc0wDdKxyD8j7jMJErZor5ED0zAzcG3A/edit?usp=drive_link",
 }); //이미지타이틀
 
 //단위 테스트
