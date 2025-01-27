@@ -36,12 +36,12 @@ d1.set_content(
   "사용자의 로그인 기능을 구현하여 로그인 사용자와 비로그인 사용자에 제공 서비스를 구분한다."
 ); //서브 타이틀
 d1.set_img(0, {
-  imgtitle: "요구사항 명세서 작성",
+  imgtitle: "요구사항 명세서",
   imgurl:
-    "https://drive.google.com/file/d/14tP9OZVdtt7V-78ztYOqxwIlhE7L7Gh5/view?usp=drive_link",
-  imglog: "작성된 요구사항 명",
+    "https://drive.google.com/file/d/1coI816jMUZlOEKUUAwjVs3IGe299Sbon/view?usp=drive_link",
+  imglog: "요구사항 명세서",
   sourceurl:
-    "https://drive.google.com/drive/folders/1Sc2hvpJedi3QsoCSHroRZeGGRLo4SZr8?usp=drive_link",
+    "https://docs.google.com/document/d/1qQB-a8vxE0IEFTQuqECyQfRu86l1odpVYwtVK2SbqHk/edit?usp=drive_link",
 }); //이미지타이틀
 
 d1.set_content(
@@ -50,9 +50,8 @@ d1.set_content(
 d1.set_img(1, {
   imgtitle: "개발언어선정",
   imgurl:
-    "https://drive.google.com/file/d/14KBnnIXV05zlsSph3-XuC0jywezuGVfN/view?usp=drive_link",
-  imglog:
-    "자바언어기반 스프링프레임워크, html5,css3.javascript,jquery, memberData file",
+    "https://drive.google.com/file/d/1dB5BFVfNOwH7cH2PL9D2he5IRSaMLZCK/view?usp=drive_link",
+  imglog: "개발언어 선정",
   sourceurl:
     "https://docs.google.com/document/d/1KDdTqMNlEEeuWGtog3AsUIQo_KFAznTm8MEg8h-0T3s/edit?usp=drive_link",
 }); //이미지타이틀
@@ -70,13 +69,6 @@ d1.set_img(1, {
   imglog: "오픈소스 마리아DB v11.62",
   sourceurl: "",
 }); //이미지타이틀
-d1.set_img(1, {
-  imgtitle: "member 테이블",
-  imgurl:
-    "https://drive.google.com/file/d/1O9jzgXWjhsvo9X7mHbLR442nf06RDeQB/view?usp=drive_link",
-  imglog: "member 테이블 파일",
-  sourceurl: "",
-}); //이미지타이틀
 
 d1.set_content(
   "코딩개발도구와 테스트 및 빌드, 패키징, 배포등 개발 전반에 대한 필요한 환경을 설정한다."
@@ -84,7 +76,7 @@ d1.set_content(
 d1.set_img(2, {
   imgtitle: "개발환경 구축 명세",
   imgurl:
-    "https://drive.google.com/file/d/1powbBJAgvE7AG3Kc0ihAN2ROizD-wZ__/view?usp=drive_link",
+    "https://drive.google.com/file/d/1NvaArZwakXWLvKN4-e4phuuqrixlVv71/view?usp=drive_link",
   imglog:
     "운영체제 및 개발에 필요한 환경을 고려하여 개발도구, 테스트도구, 빌드도구, 패키징도구, 형상관리도구등을 결정",
   sourceurl:
